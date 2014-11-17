@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+
+<html>
+	<head>
+	     <title> Comportamiento de imaxes e caixas </title>
+         <style>
+             h1 {
+                 border: 5px solid blue;
+            }
+            div {
+                 width: 480;
+                 height: 400;
+                 border: 1px solid red;
+            }
+            div#titulo {
+                border: 4px solid blue;
+                border-width: 1px;
+                border-style: solid;
+                border-top-style: solid;
+                border-right-color: green;
+            }
+            div#menu {
+                width: 50%;
+                height: 50%;
+                border: 4px solid green;
+                margin-top: 100px;
+                margin-botton: 100px;
+                margin-left: 50px;
+                margin-right: 50px; (!--se pos margin é o mesmo que os 4 xuntos--!)
+            }
+         </style>
+    </head> 
+    <body>
+        <div id= "titulo">
+             <h1> O meu titulo </h1>
+             <div id= "menu">
+                <p> O meu menu</p>
+            </div>
+       </div>
+       <div>
+            <img src= "imaxe.jpg">
+       </div>
+     </body>
+</html>
